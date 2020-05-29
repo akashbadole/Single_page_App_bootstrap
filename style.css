@@ -1,0 +1,241 @@
+/* Design by - Akash Badole */
+
+html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  /* .container {
+    max-width: 960px;
+  } */
+  
+  .pricing-header {
+    max-width: 700px;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }
+  
+  .border-top { border-top: 1px solid #e5e5e5; }
+  .border-bottom { border-bottom: 1px solid #e5e5e5; }
+  
+  .box-shadow { box-shadow: 0 2px 4px 0 rgba(90,90,90,.5); }
+
+
+
+  .top-header{
+    /* box-shadow: 0 2px 4px 0 rgba(90,90,90,.5); */
+    /* background-color: #fff; */
+    z-index: 10000;
+    position: fixed;
+    width: 100vw;
+    
+  }
+
+  .h1-header{
+      font-size: 72px;
+      margin: 20px;
+  }
+
+  .h2-header{
+    font-size: 42px;
+    margin: 20px;
+}
+
+.text-span{
+    font-size: 15px;
+}
+
+#About{
+
+    background-color: #E5E5E5;
+    padding: 20px;
+
+}
+
+#games{
+
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+#about_km{
+    padding-top: 20px;
+}
+
+#about_faq{
+
+    background-color: #E5E5E5;
+    padding: 20px;
+    width: 100%;
+    margin:0px;
+}
+
+[data-toggle="collapse"] .fa:before {  
+  content: "\f139";
+}
+
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f13a";
+}
+
+
+.footer{
+  background-color: #4A4A4A;
+  color: #fff;
+
+}
+
+.heart{
+  color:#e25555;
+}
+
+.card-header{
+  background-color: #fff;
+}
+
+/* Social Media Icon */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+	background-color: #D3D3D3;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+/* social Media icon end  */
+
+
+.center {
+  margin: auto;
+  width: 34%;
+  padding: 10px;
+}
+
+.center-tag-1 {
+  margin: auto;
+  width: 65%;
+  padding-top: 20px;
+  
+  font-size: 17px;
+}
+
+.center-tag-2 {
+  margin: auto;
+  width: 65%;
+  
+  padding-bottom: 20px;
+  font-size: 17px;
+}
+
+.center-tag-1 a{
+  color: rgb(255, 47, 0);
+  background-color: #D3D3D3;
+  padding: 5px;
+  border-radius: 5px;
+}
+.center-tag-2 a{
+  color: rgb(255, 47, 0);
+  background-color: #D3D3D3;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.center-tag-1 a:hover{
+  color: #007bb7;
+}
+.center-tag-2 a:hover{
+  color: #007bb7;
+}
+
+.disclaimer-home{
+  background-color: #4A4A4A;
+  padding: 30px;
+  color: #fff;
+}
+
+.disclaimer-font-size{
+  font-size: 14px;
+}
+
+p a{
+  color: rgb(255, 47, 0);
+}
+
+p a:hover{
+  color: #007bb7;
+}

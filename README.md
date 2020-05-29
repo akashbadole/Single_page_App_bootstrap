@@ -1,5 +1,3 @@
-# Single_page_App_bootstrap
-Bootstrap Theme - Single Page theme
 
 # Bootstrap Single Page Theme
 
